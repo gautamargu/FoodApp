@@ -3,7 +3,7 @@ import { Tag } from './app/shared/models/Tag';
 export const sample_foods: Food[] = [
     {
       id:'1',
-      name: 'coffee',
+      name: 'Pizza Pepperoni',
       cookTime: '10-20',
       price: 10,
       favorite: false,
