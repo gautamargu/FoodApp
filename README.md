@@ -1,68 +1,22 @@
-## Project
-1. Adding Header
-    1. Generate Component
-    2. Add Html
-    3. Add Css
+# Foodlie
 
-2. List Foods
-    1. Create Food model
-    2. Create data.ts
-        1. Add sample foods
-    3. Add images to assets
-    4. Create food service
-    5. Create home components
-        1. Add ts
-        2. Add html
-        3. Add css
+The Food Delivery Website is a web-based platform that allows users to order food from various restaurants and have it delivered to their doorstep.
+It provides an easy-to-use interface for browsing restaurants, viewing menus, placing orders, and tracking deliveries.
 
-3. Search
-    1. Add method to Food service
-    2. Add search route
-    3. Shoe search result in Home component
-    4. Generate search component
-        1. Add to Home component
-        2. Add ts
-        3. Add html
-        4. Add css
+The website comes with the following features:
 
-4. Tag Bar
-    1. Create Tag model
-    2. Add sample tags to data.ts
-    3. Food services
-        1. add get all tags method
-        2. Add get all foods by tag method
-    4. Add tags route
-    5. Show tag result in Home component
-    6. Generate Tags component
-        1. Add to home component
-        2. Add ts
-        3. Add html
-        4. Add css
-
-5. Food Page 
-    1. Add method to food service
-    2. Generate Food Page component
-        1. Add Route
-        2. Add ts
-        3. Add html
-        4. Add css
-6. Cart Page
-    1. Create CartItem Model
-    2. Create Cart Model
-    3. Generate Cart Service 
-    4. Add to Cart Button in food Page
-    5. Generate Cart page component
-        1. Add Route
-        2. Add ts
-        3. Add html
-        4. Add css
-
-7. Not Found
-    1. Generate Component
-        1. Add ts
-        2. Add html
-        3. Add css
-    2. Add to Pages
-        1. Home Page
-        2. Food Page
-        3. Cart Page
+    User registration and authentication: Users can create accounts, log in, and manage their profile information.
+    
+    Restaurant browsing: Users can search for restaurants based on location, cuisine, or specific keywords.
+    
+    Menu viewing: Users can browse through the menus of different restaurants to select their desired dishes.
+    
+    Cart management: Users can add dishes to their cart, modify quantities, and remove items before placing an order.
+    
+    Order placement: Users can place orders for selected dishes, specifying delivery address and payment details.
+    
+    Order tracking: Users can track the status of their orders in real-time, from preparation to delivery.
+    
+    Restaurant management: Restaurant owners can register their establishments, create menus, and manage orders.
+    
+    Admin panel: Administrators have access to an admin panel to manage users, restaurants, and other system settings.
