@@ -1,7 +1,22 @@
+.next{
+    display: flex;
+    flex-direction: row;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 13px;
+}
+
+.imgk img{
+
+    height: 50px;
+    width: 120%;
+
+}
 header{
     position: relative;
-    background: white;
-    padding: 0;
+    /* background: bisque; */
+    padding: 1px;
+    border-top: 1px solid #e72929;
     border-bottom: 1px solid #e72929;
 }
 
@@ -16,7 +31,7 @@ a:hover{
 }
 
 .container{
-    margin: 0 auto;
+    margin: 6px auto;
     display: flex;
     justify-content: space-between;
 }
