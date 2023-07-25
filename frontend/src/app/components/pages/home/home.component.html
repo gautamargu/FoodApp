@@ -5,7 +5,7 @@
 <app-not-found
     [visible]="!foods || !foods.length"
     resetLinkText="Search Again"
-></app-not-found>
+    ></app-not-found>
 
 <ul>
     <li *ngFor = "let food of foods ">
@@ -36,6 +36,7 @@
                 <div class="price">
                   <span>
                     {{food.price | currency:'INR'}}
+                    <!-- {{food.price | currency}} -->
                   </span>
                 </div>
 
