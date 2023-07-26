@@ -24,6 +24,7 @@ export class HeaderComponent {
   }
 
   get isAuth(){
+    // console.log("gfeklgjldjsg = ", this.user.token);
     return this.user.token;
   }  
 
