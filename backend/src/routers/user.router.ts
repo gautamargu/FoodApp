@@ -6,7 +6,9 @@ import { User, UserModel } from "../models/user.model";
 import { HTTP_BAD_REQUEST } from "../constants/http_status";
 import bcrypt from 'bcryptjs';
 
+
 const router = Router();
+
 
 router.get("/seed", asyncHandler(
     async (req,res) => {
@@ -80,14 +82,31 @@ const generateTokenResponse  = (user:any) =>{
     // console.log("user b4 token =============================", {...user});
     const token = jwt.sign({
         // Added jwt_secret code
-        email:user.email, isAdmin:user.isAdmin
+
+        id: user.id, email:user.email, isAdmin:user.isAdmin
         }, "test", {
         expiresIn:"30d"
     });
+    
+
+
     // _doc => document data
      user._doc.token = token;
     // const u = { ...user._doc, token: token };
     //  console.log("USER after token  = ====================================================", u);
+    
+    // return{
+    //   id: user.id,
+    //   email: user.email,
+    //   name: user.name,
+    //   address: user.address,
+    //   isAdmin: user.isAdmin,
+    //   token: user._doc.token
+    // //    token:token
+        
+    // };
+
+    
     return user;
 }
 export default router;
